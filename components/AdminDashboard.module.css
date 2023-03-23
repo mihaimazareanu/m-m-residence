@@ -26,3 +26,13 @@
     width: 2rem;
     height: 2rem;
 }
+
+@media screen and (min-width: 768px) {
+    .users {
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    } 
+}

@@ -92,4 +92,20 @@
     .btn-modal {
       font-size: 1rem; 
     }
+
+    .modal-content {
+        width: 50%;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .modal-content {
+        width: 40%;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .modal-content {
+        width: 30%;
+    }
   }
