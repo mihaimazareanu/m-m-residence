@@ -47,7 +47,7 @@ function AdminDashboard() {
   return (
     <>
     <h3 className={styles.title}>This is a list with the current users:</h3>
-    <div  key={user.id} className={styles.users}>
+    {users && <div  key={user.id} className={styles.users}>
     {users.map((user) => {
             return (
                 <p className={styles["user-details"]} key={user._id}>{user.firstName} {user.partner && `& ${user.partner}`}
@@ -57,7 +57,7 @@ function AdminDashboard() {
                 </p>
             );
         })}
-        </div>
+        </div>}
     <Register/>
     </>
   )
