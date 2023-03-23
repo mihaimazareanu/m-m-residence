@@ -47,17 +47,17 @@ function AdminDashboard() {
   return (
     <>
     <h3 className={styles.title}>This is a list with the current users:</h3>
+    <div  key={user.id} className={styles.users}>
     {users.map((user) => {
             return (
-              <div  key={user.id} className={styles.users}>
                 <p className={styles["user-details"]} key={user._id}>{user.firstName} {user.partner && `& ${user.partner}`}
                   {!user.isAdmin && 
                   <button className={styles.delete} onClick={() => handleDelete(user.username, user._id)}>X</button>
                   }
                 </p>
-              </div>
             );
         })}
+        </div>
     <Register/>
     </>
   )

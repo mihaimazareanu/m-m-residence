@@ -3,6 +3,16 @@
     margin-top: 2rem;
 }
 
+.users {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    border: 2px solid #15616d;
+    border-radius: 1rem;
+    width: 90%;
+}
+
 .user-details {
     width: 100%;
     display: flex;
@@ -30,9 +40,5 @@
 @media screen and (min-width: 768px) {
     .users {
         width: 50%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
     } 
 }
