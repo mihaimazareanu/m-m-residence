@@ -4,15 +4,12 @@
 }
 
 .details {
-    text-align: justify;
+    text-align: center;
     padding: 0 1rem;
     margin: 1rem;
 }
 
 .details:first-of-type {
     margin-top: 3rem;
-}
-
-.details:last-of-type {
-    text-align: center;
+    text-align: justify;
 }
