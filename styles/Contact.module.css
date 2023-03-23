@@ -1,9 +1,18 @@
 .title {
     text-align: center;
+    margin-top: 2rem;
 }
 
 .details {
     text-align: justify;
     padding: 0 1rem;
     margin: 1rem;
+}
+
+.details:first-of-type {
+    margin-top: 3rem;
+}
+
+.details:last-of-type {
+    text-align: center;
 }

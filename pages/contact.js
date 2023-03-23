@@ -17,7 +17,9 @@ const Contact = () => {
         </> 
         : 
         <>
-          <p className={styles.details}>If you want to organize a direct home exchange with us, please look for us on the <a href="https://www.homeexchange.com/" target="_blank" rel="noreferrer">home exchange</a> website. This is our profile: <a href="https://www.homeexchange.com/holiday-home/2112863" target="_blank" rel="noreferrer">M&M Residence</a></p></>}
+          <p className={styles.details}>If you want to organize a direct home exchange with us, please look for us on the home exchange <a href="https://www.homeexchange.com/" target="_blank" rel="noreferrer"> website</a>. This is our profile:</p>
+          <p className={styles.details}><a href="https://www.homeexchange.com/holiday-home/2112863" target="_blank" rel="noreferrer">M&M Residence</a></p>
+          </>}
         </>
 };
 
