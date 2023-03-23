@@ -1,0 +1,11 @@
+.title {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+
+.details {
+    text-align: justify;
+    padding: 0 1rem;
+    margin: 1rem;
+}
