@@ -71,7 +71,7 @@ function Register() {
                     </fieldset>
                     <fieldset className={styles["lastName-fieldset"]}>
                         <label className={styles["styled-label"]} htmlFor="lastName">Last Name</label>
-                        <input id="lastName" type="text" required name="lastName" placeholder="Type a last name..." />
+                        <input id="lastName" type="text" name="lastName" placeholder="Type a last name..." />
                     </fieldset>
                     <fieldset className={styles["partner-fieldset"]}>
                         <label className={styles["styled-label"]} htmlFor="partner">Partner&apos;s First Name</label>
