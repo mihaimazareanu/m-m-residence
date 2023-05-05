@@ -4,6 +4,7 @@ import { PageContextProvider } from '@/contexts/PageContext';
 import Layout from '@/components/Layout';
 import { ReloadContextProvider } from '@/contexts/ReloadContext';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App({ Component, pageProps }) {
   return <PageContextProvider>
@@ -12,6 +13,7 @@ export default function App({ Component, pageProps }) {
               <Layout/>
               <Component {...pageProps} />
               <ScrollToTopButton />
+              <Analytics />
             </ReloadContextProvider>
           </UserContextProvider>
         </PageContextProvider>
