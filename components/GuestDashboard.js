@@ -6,7 +6,7 @@ function GuestDashboard() {
   const {user} = useContext(UserContext);
   return (
     <>
-      <h2 className={styles.title} >Hello {user.firstName} {user.partner ? `& ${user.partner}` : ""}</h2>
+      <h2 className={styles.title}>Hello {user.firstName} {user.partner ? `& ${user.partner}` : ""}</h2>
       <h4 className={styles.title}>Welcome to our home</h4>
       <p className={styles.details}>The address is Windloh 30a, 22869 Hamburg. Our door is on the right side of the house towards the end of the driveway. You can park your car at the end of the drive way on the right side of the house or you can park in the street.</p>
       <h4 className={styles.title}>Our phone numbers are:</h4>
